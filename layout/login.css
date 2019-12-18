@@ -1,12 +1,8 @@
 .header {
-  text-align: left
-  padding: 10px 75px 10px 75px;
-  margin-left: 10px;
+  align: left
+  padding: 0px;
+  margin: 10px;
   background-color: #F1F1F1;
 }
-.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 300px;
-}
+.logButton {
+float: right;
