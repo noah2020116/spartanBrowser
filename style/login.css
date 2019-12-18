@@ -1,0 +1,79 @@
+html {
+  font-family: Segoe UI;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+span {
+  color: #0d0d0d;
+  text-shadow: 1.5px 1.5px #005643;
+  float: center;
+  font-size: 2em;
+  font-weight: bolder;
+
+}
+
+.header img {
+  height: 50px;
+  length: 50px;
+  margin-bottom: 1px;
+  display: inline-block;
+}
+
+.logButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px 30px 25px 25px;
+  width: 30px;
+  height: 15px;
+  font-size: 10px;
+  padding: 0px;
+}
+
+hr {
+  color: black;
+  margin-top: 0px;
+  margin-bottom:0px;
+  padding-bottom: 1px;
+  padding-top: 0px;
+}
+
+.bodyContents span {
+  display: inline;
+}
+
+figcaption {
+  font-size: 10px;
+  float: center;
+}
+
+#krLogo {
+  height: 100px;
+  width: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+#acLogo {
+  height: 100px;
+  width: 100px;
+  margin: 10px 10px 10px 10px;
+}
+
+.spartVal {
+  display: inline;
+  float: right;
+  font-size: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+
+/* color palette
+green: #005643
+'Black': #393738
+light grey : #7F7E82
+'White': #E7E6E7  */
