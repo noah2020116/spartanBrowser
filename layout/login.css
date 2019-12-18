@@ -1,8 +1,20 @@
+body {
+  margin: 0px;
+  padding:
+}
+
 .header {
-  align: left
-  padding: 0px;
-  margin: 10px;
+  margin: 0px;
   background-color: #F1F1F1;
 }
 .logButton {
-float: right;
+position: absolute; /* This keeps the code stuck in a set position*/
+top: 0;
+right: 0;
+margin: 20px 30px;
+}
+h3 {
+  position: absolute;
+  top: 500px;
+  right: 70px;
+}
