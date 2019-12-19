@@ -8,16 +8,19 @@ body {
 
 span {
   color: #0d0d0d;
-  text-shadow: 1.5px 1.5px #005643;
+  text-shadow: 2px 2px #005643;
   float: center;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bolder;
-
 }
 
+.header {
+  background-color: #7F7E82;
+
+}
 .header img {
-  height: 50px;
-  length: 50px;
+  height: 70px;
+  length: 70px;
   margin-bottom: 1px;
   display: inline-block;
 }
@@ -27,9 +30,9 @@ span {
   top: 0;
   right: 0;
   margin: 20px 30px 25px 25px;
-  width: 30px;
-  height: 15px;
-  font-size: 10px;
+  width: 50px;
+  height: 30px;
+  font-size: 16px;
   padding: 0px;
 }
 
@@ -41,35 +44,46 @@ hr {
   padding-top: 0px;
 }
 
-.bodyContents span {
-  display: inline;
-}
-
 figcaption {
-  font-size: 10px;
+  font-size: 16px;
   float: center;
 }
 
 #krLogo {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   margin: 10px 10px 10px 10px;
 }
 
 #acLogo {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   margin: 10px 10px 10px 10px;
 }
 
+span.vals{
+  color: #0d0d0d;
+  text-shadow: 2px 2px #005643;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+}
+
 .spartVal {
-  display: inline;
-  float: right;
-  font-size: 10px;
+  font-size: 20px;
   border-style: solid;
   border-color: black;
   border-width: 2px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
 }
+
+ul {
+  padding-inline-start: 0px;
+}
+
+
+
 
 
 /* color palette
