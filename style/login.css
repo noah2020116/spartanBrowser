@@ -12,7 +12,6 @@ span {
   float: center;
   font-size: 3em;
   font-weight: bolder;
-
 }
 
 .header {
@@ -62,15 +61,29 @@ figcaption {
   margin: 10px 10px 10px 10px;
 }
 
+span.vals{
+  color: #0d0d0d;
+  text-shadow: 2px 2px #005643;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 10px 10px 10px 10px;
+}
+
 .spartVal {
-  position: absolute;
-  top: 100px;
-  left: 300px;
-  font-size: 10px;
+  font-size: 20px;
   border-style: solid;
   border-color: black;
   border-width: 2px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
 }
+
+ul {
+  padding-inline-start: 0px;
+}
+
+
+
 
 
 /* color palette
