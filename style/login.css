@@ -6,7 +6,12 @@ body {
   background-color: lightgrey;
 }
 
-span {
+
+.header {
+  background-color: #7F7E82;
+}
+
+.header span {
   color: #0d0d0d;
   text-shadow: 2px 2px #005643;
   float: center;
@@ -14,14 +19,10 @@ span {
   font-weight: bolder;
 }
 
-.header {
-  background-color: #7F7E82;
-
-}
 .header img {
   height: 70px;
   length: 70px;
-  margin-bottom: 1px;
+  margin: 10px 10px 0px 10px;
   display: inline-block;
 }
 
@@ -42,6 +43,10 @@ hr {
   margin-bottom:0px;
   padding-bottom: 1px;
   padding-top: 0px;
+}
+.bodyContents {
+  margin: 20px 0px 0px 20px;
+
 }
 
 figcaption {
