@@ -14,7 +14,7 @@
     <div class="column"></div>
     <span>SpartChat</span>
     </div>
-    <button class="logButton" onclick="login()">Login</button>
+    <button class="logButton" onclick="document.getElementById('id01').style.display='block'">Login</button>
       <hr>
     <div class="bodyContents">
       <img id="krLogo"src="img/KLogo.jpg"></img>
@@ -22,17 +22,45 @@
       <img id="acLogo" src="img/CLogo.png"></img>
       <figcaption>After~Coding</figcaption>
       <div class="spartVal">
-        <span>Spartan Values:</span>
-        <ul>
-          <li>Professionalism</li>
-          <li>Empathy</li>
-          <li>Innovation</li>
-          <li>Perseverance</li>
-          <li>Optimism</li>
-          <li>Integrity</li>
-        </ul>
-    </div>
-  </div>
-  </body>
+        <span class="vals">Spartan Values:</span>
+          <ul style="list-style-type:none">
+            <li>Professionalism</li>
+            <li>Empathy</li>
+            <li>Innovation</li>
+            <li>Perseverance</li>
+            <li>Optimism</li>
+            <li>Integrity</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="id01" class="modal">
+        
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            
+          </div>
+      
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+  
+    </body>
 
 </html>

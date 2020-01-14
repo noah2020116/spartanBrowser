@@ -6,12 +6,14 @@ body {
 .header {
   margin: 0px;
 }
+
 .logButton {
 position: absolute; /* This positioning makes the code stay in a relative location rather than a fixed position or a static position. */
 top: 0;
 right: 0; /* This adjusts the positioning from the right of a page */
 margin: 20px 30px;
 }
+
 .spartVal {
   position: absolute;
   top: 100px; /* This adjusts the spacing from the top of the page */
